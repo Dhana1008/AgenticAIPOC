@@ -1,0 +1,101 @@
+Order ID,Customer Name,Order Date,Order Status,Order Amount,Shipping Address,Payment Status,Item Details
+554369,Nicole Robertson,07-01-2025,Delivered,1045.34,"6072 Nicholas Divide Suite 616, South Debbieberg, HI 08041",Paid,Headphones
+592704,Justin Garcia,07-01-2025,Returned,196.97,"89605 Parker Valley Apt. 997, East Jenniferberg, IN 36613",Refunded,Headphones
+707097,Kathleen Smith,28-01-2025,Shipped,710.77,"433 Hendricks Light Suite 517, North Gabriel, NC 42633",Refunded,Mouse
+809863,Gabriel Lynn,17-02-2025,Shipped,892.83,"58270 Megan Curve Apt. 438, Wardshire, WV 70134",Refunded,Monitor
+465869,Daniel Smith,02-01-2025,Delivered,989.89,"55829 Cunningham Plain, Port Matthew, VI 02256",Unpaid,Smartwatch
+285388,Dustin Washington,10-01-2025,Returned,715.95,"718 Owen Rapids, West Jose, WY 89673",Refunded,Smartwatch
+394110,Stephanie Fox,01-02-2025,Canceled,89.36,"619 Timothy Circle, New Gina, SC 33792",Paid,Headphones
+854926,Ashley Mendoza,22-02-2025,Shipped,1290.07,"5828 Melissa Plains, Lake Sandra, DC 75230",Refunded,Mouse
+888665,Connie Lyons,14-01-2025,Canceled,395.92,"258 Jeff Plains Apt. 486, West Zacharytown, KY 63593",Refunded,Laptop
+767155,Erica Livingston,13-01-2025,Delivered,276.24,"790 Kimberly Terrace Apt. 222, Henryside, MT 35165",Unpaid,Smartwatch
+309893,James Palmer,21-01-2025,Delivered,699.79,"116 Briggs Shore, Port Tracymouth, ME 41932",Unpaid,Keyboard
+340586,Caroline Morgan,22-02-2025,Returned,406.92,"22705 Susan Street, New Aaronport, WA 67710",Unpaid,Monitor
+109502,Tyler Collins,07-02-2025,Returned,176.54,"141 Hernandez Hollow Apt. 568, Port Heatherberg, OR 22174",Paid,Tablet
+202902,Colin Brewer,27-02-2025,Returned,729.01,"581 Weaver Mountains, North Lorrainefort, CT 14059",Paid,Smartwatch
+206859,Jeanette Torres,28-01-2025,Canceled,583.11,"866 Kim Village Apt. 114, Port Debraborough, MN 38868",Paid,Smartwatch
+982122,Marissa Blair,21-01-2025,Canceled,1281.63,"83711 Santiago Coves, Bowmanport, SD 56261",Paid,Laptop
+347294,Kenneth Hall,25-01-2025,Returned,195.14,"5650 Gonzales Island Suite 018, West Michael, IA 48623",Paid,Smartwatch
+542491,Mary Young,19-02-2025,Canceled,1267.35,"011 Matthew Centers, Port Nicolemouth, NC 50145",Refunded,Smartwatch
+589621,Robert Brown,22-02-2025,Delivered,884.27,"339 Angela Circle Suite 167, New Sharonburgh, NE 82878",Refunded,Mouse
+516631,Robert Serrano,16-02-2025,Delivered,461.13,"6689 Zachary Creek Apt. 751, East Raymondton, VT 34324",Paid,Headphones
+281919,Dwayne Olson,27-01-2025,Delivered,1238.51,"3483 Stacy Forges, New Victoriatown, MI 48967",Refunded,Keyboard
+641541,Jenna Chen,02-02-2025,Pending,915.27,"2829 Kelley Village, New Jessica, MA 57580",Paid,Headphones
+317021,Jordan Martinez,22-02-2025,Pending,1408.14,"6171 Conley Fort, Nathanielport, CA 06063",Unpaid,Headphones
+388379,Dale Nelson,29-01-2025,Returned,1541.17,"1252 Spencer Coves Suite 529, Carterhaven, GA 67796",Unpaid,Laptop
+776076,Angel Maldonado,07-01-2025,Returned,1620.06,"62239 Heidi Tunnel, Elizabethtown, FM 96397",Refunded,Keyboard
+925318,Lisa Simon,16-02-2025,Shipped,1658.31,"53832 Christopher Skyway, Amyborough, VI 51182",Unpaid,Mouse
+733925,Stephanie Fuller,16-01-2025,Shipped,1319.02,"2568 Pena Parkway, Lake Raymondberg, KS 32208",Paid,Smartphone
+242134,Wayne Patel,28-02-2025,Delivered,1298.63,"0422 Baker Ports, Veronicahaven, FL 62166",Refunded,Mouse
+958668,Kara Cuevas,11-02-2025,Shipped,71.12,"550 White Flats Apt. 830, Davidborough, MA 56333",Refunded,Headphones
+958220,Erin Chavez,26-02-2025,Canceled,144.71,"1332 Brooks Pass Suite 144, Harristown, MD 04911",Refunded,Smartwatch
+518799,Mark Rice MD,10-01-2025,Delivered,463.99,"4534 Rasmussen Center, Barbaraville, FM 22366",Paid,Tablet
+177996,Kristen Gonzales,26-02-2025,Shipped,807.49,"322 Thomas Garden Suite 144, West Suzannemouth, AS 88119",Paid,Laptop
+413526,Mark Stone,19-02-2025,Pending,338.34,"8679 Phyllis Centers Suite 941, Christophermouth, ME 95286",Unpaid,Smartphone
+785310,Felicia Taylor,18-02-2025,Delivered,811.27,"282 Jenkins Rue, Kathleenburgh, MS 97177",Unpaid,Monitor
+263200,Adrian Cortez,20-01-2025,Shipped,1897.58,"0539 Jeffrey Vista, Maureenburgh, KY 45645",Refunded,Keyboard
+814841,Paul Bender,25-01-2025,Shipped,662.52,"830 Ramirez Roads Apt. 175, Jasonmouth, MT 65100",Refunded,Monitor
+176853,Angela Sutton,16-01-2025,Shipped,1457.94,"396 Manuel Rapid, East Tylerbury, FL 62415",Paid,Monitor
+366051,Xavier Martinez,15-02-2025,Shipped,715.8,"1222 Jonathan Islands, Blackwellberg, LA 07289",Refunded,Laptop
+309295,Monique Gill,15-02-2025,Delivered,972.04,"21126 Reyes Plains, East Lisafort, TX 38110",Refunded,Keyboard
+574100,Laura Garcia,16-01-2025,Delivered,415.83,"4939 Wheeler Heights Apt. 196, Port Donaldport, KY 37044",Unpaid,Smartphone
+778421,James Rodriguez,01-02-2025,Pending,1294.76,"040 Alicia Mission Apt. 002, North Valerie, OK 02966",Refunded,Smartphone
+440588,Steven Stanley DDS,15-01-2025,Shipped,817.81,"9234 David Valleys, New Tonyland, VI 89184",Refunded,Smartwatch
+409389,Kristin White,27-02-2025,Delivered,1672.38,"3099 Debra Lodge Suite 930, Suttonfort, MH 78598",Paid,Smartwatch
+155562,Mark Zhang,27-01-2025,Shipped,1812.46,"510 Richard Path Apt. 795, Port Brandi, RI 40670",Refunded,Monitor
+704406,Amanda Gonzales,27-01-2025,Delivered,1628.03,"463 Jason Parks Apt. 366, Lake Melissabury, MS 81825",Paid,Laptop
+437244,Katie Nelson,19-02-2025,Canceled,1956.51,"98856 Ann Ford Suite 947, East Toni, RI 55735",Unpaid,Monitor
+928574,Shawn Elliott,31-01-2025,Shipped,1475.13,"029 Nelson Motorway, Shaneberg, MA 96982",Paid,Tablet
+395608,John Russell,13-01-2025,Pending,681.96,"701 Brown Gardens, Port Jessicaland, PA 36134",Paid,Mouse
+609115,Stacey Mitchell,25-01-2025,Shipped,286.97,"47471 Brett Rapids, Beardburgh, SD 34136",Unpaid,Tablet
+681795,Linda Wilcox,29-01-2025,Delivered,312.76,"66905 Warner Walk Suite 858, Josephland, NE 15680",Paid,Mouse
+193708,Sandra Myers,15-02-2025,Delivered,231.9,"45443 Wright Square, Romerofort, MT 60427",Refunded,Tablet
+646591,Laurie Smith,17-01-2025,Shipped,142.95,"60176 Nicholas Glens Suite 346, Danielton, NM 37119",Paid,Smartwatch
+788362,John Stone,26-01-2025,Shipped,1880.13,"9392 Goodwin Mission, Lake Jakeborough, HI 35475",Refunded,Laptop
+428522,Joel Vega,20-01-2025,Pending,1120.39,"55897 Payne Street, Lake Matthewhaven, VI 91654",Unpaid,Headphones
+886890,Samantha Bell,05-01-2025,Shipped,442.51,"239 Reed Street Apt. 126, East Brian, AK 03327",Unpaid,Monitor
+481805,Daniel Santiago MD,01-02-2025,Pending,894.64,"159 Parks Plain Suite 050, East Isaiah, GA 02227",Unpaid,Monitor
+116703,Katelyn Williams,22-01-2025,Canceled,1427.05,"600 Sierra Place, Hendricksburgh, TX 33787",Unpaid,Monitor
+269790,Mr. Dale Page,18-01-2025,Shipped,1086.66,"5073 Lynn Isle, Garciaburgh, RI 67564",Paid,Tablet
+594290,Todd Jones,12-01-2025,Shipped,1371.54,"USCGC Moses, FPO AA 44565",Refunded,Tablet
+848500,Crystal Peterson,20-02-2025,Delivered,1984.78,"3676 Brenda Causeway Suite 757, East Elizabethtown, OK 45252",Unpaid,Smartphone
+727094,Cynthia Bentley,12-01-2025,Delivered,900.43,"5661 Darrell Via, North Shawnbury, HI 39129",Refunded,Smartphone
+376281,Tamara Pierce,02-02-2025,Delivered,636.33,"323 Cynthia Island Apt. 643, Lake Danny, OK 54539",Refunded,Smartwatch
+546083,Melissa Mcgee,22-02-2025,Returned,1880.46,"0955 Tyler Crossing, New Billytown, KS 95188",Unpaid,Mouse
+452777,Jeremy Smith,03-02-2025,Delivered,149.25,"8971 Kenneth Run, West Tylerton, NJ 25692",Refunded,Laptop
+540534,Andrew Greene,16-01-2025,Delivered,950.08,"82149 Thomas Points Apt. 995, East Russell, OH 31979",Unpaid,Tablet
+586334,Samantha Hernandez,28-01-2025,Returned,469.74,"76164 Christopher Coves Apt. 255, South Michaelfort, DE 69947",Refunded,Laptop
+666955,Craig Gonzalez,14-02-2025,Returned,297.62,"2296 Jackson Centers Apt. 097, North Deniseberg, PW 11249",Paid,Mouse
+390996,Paul Reynolds,20-02-2025,Shipped,1824.29,"478 Garcia Stravenue, Jonesfurt, GA 60012",Paid,Tablet
+474580,Hannah Martin,07-02-2025,Pending,1403.17,"3378 Fowler Centers Apt. 415, Lake Josephberg, ID 68963",Unpaid,Keyboard
+241082,Kristi Medina,07-01-2025,Canceled,1274.58,"6977 Heather Points Apt. 155, Lake Anthony, NV 92638",Unpaid,Keyboard
+553750,Miranda Smith,20-01-2025,Shipped,1739.26,"3007 Morris Road Apt. 296, Lake Charles, VA 42934",Unpaid,Headphones
+433719,Daniel Butler,20-02-2025,Returned,1503.38,"33454 Shah Mission Suite 854, Ashleyville, MP 01993",Refunded,Monitor
+349138,Brandon Robinson DVM,10-02-2025,Returned,1837.48,"9031 Mark Alley Suite 612, Daniellehaven, GU 93769",Paid,Laptop
+343799,Mr. Kenneth Carpenter,10-01-2025,Canceled,1558.7,"33346 Jennifer Route Suite 507, Whiteburgh, WV 18770",Unpaid,Smartphone
+680895,Craig Johnson,28-01-2025,Delivered,1264.14,"420 Salazar Mission Apt. 603, Seanside, ND 88296",Unpaid,Keyboard
+502199,Mary Schwartz,08-02-2025,Pending,941.89,"7833 Teresa Roads Apt. 475, Stevenfurt, ID 36945",Paid,Mouse
+798589,Jane Martin,19-01-2025,Canceled,1059.21,"0813 Wells Place, Johnberg, IN 52796",Paid,Smartwatch
+769045,Mary Smith,27-02-2025,Pending,1321.85,"62968 Barnes Run Apt. 263, Dunnchester, NC 94825",Unpaid,Mouse
+337498,Pamela Singh,07-02-2025,Delivered,1614.24,"4807 King Island, New Brittanybury, TX 51480",Paid,Headphones
+863140,Mrs. Dawn Carroll DDS,03-01-2025,Delivered,93.46,"69192 Wolf Spring, New Christopherland, DC 65157",Refunded,Tablet
+110642,David Maynard,16-02-2025,Pending,315.13,"23907 Owen Skyway Apt. 927, South Christinefort, DE 53631",Unpaid,Monitor
+575856,Samantha Robinson,08-01-2025,Canceled,1371.98,"0699 Brady Divide, South Elizabethmouth, NM 56692",Unpaid,Monitor
+861536,Jonathan Cummings,25-01-2025,Canceled,151.78,"3282 Barker Court, South Matthew, MN 03735",Unpaid,Smartwatch
+940221,David Torres,16-01-2025,Delivered,148.52,"2485 Parker Glens, Payneport, PA 19106",Unpaid,Mouse
+480924,Shane Braun,06-02-2025,Pending,1866.94,"8883 Mark Cape Apt. 489, Ortiztown, OK 31684",Unpaid,Headphones
+340667,Amber Gray,09-02-2025,Canceled,958.99,"USNV Alexander, FPO AP 98244",Refunded,Tablet
+985917,Donald Williams,12-01-2025,Pending,1151.27,"PSC 8052, Box 7571, APO AP 71253",Refunded,Monitor
+913592,Madison Ferguson,25-02-2025,Canceled,1031.49,"0980 Michael Path, North Daniel, NM 83104",Unpaid,Smartphone
+682264,Willie Guzman,28-01-2025,Pending,1539.15,"5800 Paula Drive Apt. 046, Randyborough, FL 64189",Paid,Tablet
+972815,Erin Church,20-02-2025,Canceled,1145.43,"PSC 3920, Box 5679, APO AE 04665",Unpaid,Headphones
+579179,Dorothy Phillips,11-02-2025,Shipped,65.44,"13853 Brooks Pine Apt. 875, Kellyburgh, WV 74417",Refunded,Tablet
+967394,Eddie Barnes,07-01-2025,Canceled,1165.74,"861 Ortiz Fields, East Robert, NV 92802",Unpaid,Smartphone
+505927,Deborah Phillips,31-12-2024,Pending,865.68,"8989 Powell Loop, New Kevin, IA 78757",Refunded,Smartwatch
+119196,Alyssa York,24-02-2025,Returned,1758.25,"482 Keith Road Suite 907, Campbellstad, AZ 75473",Paid,Headphones
+630487,Marie Jones,18-02-2025,Pending,1098.33,"8753 Richard Bypass, Rosarioshire, ID 19510",Unpaid,Monitor
+321971,Amy Walker,27-01-2025,Shipped,1226.92,"207 Pittman Crossroad, Bakerbury, OR 66531",Paid,Headphones
+909680,Christine Jones,02-01-2025,Returned,1297.01,"8860 Laura Skyway Apt. 920, Garrettfurt, AS 34052",Unpaid,Mouse
+113392,Mr. Blake Deleon,09-01-2025,Shipped,203.45,"3589 Rivas Locks, Nicoleton, AZ 57571",Refunded,Smartphone
+523306,Amanda Robbins,15-01-2025,Canceled,836.66,"64929 Ellison Heights Apt. 889, East Brian, MO 19828",Paid,Keyboard
+907840,Jessica Norton,13-01-2025,Delivered,141.1,"18347 Hoffman Stravenue Apt. 849, Cummingshaven, MP 01499",Unpaid,Keyboard
