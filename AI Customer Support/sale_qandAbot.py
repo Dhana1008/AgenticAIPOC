@@ -30,10 +30,10 @@ class State(TypedDict):
 def categorize(state: State) -> State:
     """Classify query into: Order Status, Order Details, Billing, General"""
     prompt = ChatPromptTemplate.from_template(
-        "Categorize the following customer query into exactly one of these four categories: "
-        "'Order Status', 'Order Details', 'Billing', or 'General'. "
-        "Respond ONLY with the category name, nothing else. Query: {query}"
-    )
+    "Categorize the following customer query into exactly one of these five categories: "
+    "'Order Status', 'Order Details', 'Billing', 'General', or 'Random'. "
+    "Respond ONLY with the category name, nothing else. Query: {query}"
+)
     chain = prompt | llm
     category = chain.invoke({"query": state["query"]}).content.strip()
     print(f"[DEBUG] Categorized as: '{category}'")  # Debugging log
@@ -123,11 +123,31 @@ def handle_billing(state: State) -> State:
     return {"response": "For billing inquiries, please visit our billing portal or contact support."}
 
 def handle_general(state: State) -> State:
-    """Use LLM to generate responses for sales-related customer support queries only."""
+    """Handle general sales-related queries like delivery hours, shipping days, and customer support."""
     
     prompt = ChatPromptTemplate.from_template(
-        "You are a helpful assistant that only answers questions related to Sales,shipping, orders. "
-        "If the question is not related to Sales, respond with: 'I'm sorry, but I can only assist with Sales-related queries.'\n\n"
+        "You are a helpful assistant that only answers questions related to sales, shipping, and orders. "
+        "Provide concise, accurate responses for general sales-related inquiries such as delivery hours, shipping days, or customer support. "
+        "If the query is unrelated to sales, shipping, or orders, respond with: 'I'm sorry, but I can only assist with sales-related queries.'\n\n"
+        "For reference, assume the following standard information unless specified otherwise:\n"
+        "- Delivery hours: 9 AM to 5 PM, Monday to Friday\n"
+        "- Shipping days: Orders ship within 2 business days\n"
+        "- Customer support: Available 24/7 via email (support@example.com) and 9 AM to 6 PM via phone (1-800-555-1234)\n\n"
+        "Query: {query}"
+    )
+    
+    chain = prompt | llm
+    response = chain.invoke({"query": state["query"]}).content
+    
+    return {"response": response}
+
+def handle_random(state: State) -> State:
+    """Handle queries that don't fit into predefined categories"""
+    prompt = ChatPromptTemplate.from_template(
+        "You are a customer support assistant focused on sales and orders. "
+        "The following query could not be categorized into Order Status, Order Details, Billing, or General. "
+        "Provide a polite, helpful response indicating that the query is unclear or off-topic, and suggest how the user can get assistance. "
+        "Keep the response concise and professional.\n\n"
         "Query: {query}"
     )
     
@@ -137,15 +157,13 @@ def handle_general(state: State) -> State:
     return {"response": response}
 
 
-
 # Escalate Negative Sentiments
 def escalate(state: State) -> State:
     return {"response": "Your query has been escalated to a human agent."}
 
 # Routing Logic
 def route_query(state: State) -> str:
-    """Decide next step based on sentiment and category"""
-    category = state["category"].strip().lower()  # Normalize category
+    category = state["category"].strip().lower()
     sentiment = state["sentiment"].strip().lower()
 
     print(f"[DEBUG] Routing decision: Sentiment = {sentiment}, Category = {category}")
@@ -158,6 +176,8 @@ def route_query(state: State) -> str:
         return "fetch_order_details"
     elif category == "billing":
         return "handle_billing"
+    elif category == "random":
+        return "handle_random"
     else:
         return "handle_general"
 
@@ -170,6 +190,7 @@ workflow.add_node("fetch_order_status", fetch_order_status)
 workflow.add_node("fetch_order_details", fetch_order_details)
 workflow.add_node("handle_billing", handle_billing)
 workflow.add_node("handle_general", handle_general)
+workflow.add_node("handle_random", handle_random)
 workflow.add_node("escalate", escalate)
 
 workflow.add_edge("categorize", "analyze_sentiment")
@@ -181,6 +202,7 @@ workflow.add_conditional_edges(
         "fetch_order_details": "fetch_order_details",
         "handle_billing": "handle_billing",
         "handle_general": "handle_general",
+        "handle_random": "handle_random",
         "escalate": "escalate",
     },
 )
